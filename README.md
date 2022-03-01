@@ -14,9 +14,11 @@ labs content
 - **Q3 & Q4**
    - HTTP fundermentals: what is status code?
    - How to use wireshark
+
  - **Q5**
    - how to run the server
    - how to create a client (socket programming 101)
+   - Example code (to be uploaded)
 
  - Recording clip(Short video): 
    - q3 https://youtu.be/eBnyq6_IQqE  
