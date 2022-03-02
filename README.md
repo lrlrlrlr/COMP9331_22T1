@@ -18,7 +18,7 @@ labs content
  - **Q5**
    - how to run the server
    - how to create a client (socket programming 101)
-   - Example code (to be uploaded)
+   - Example code (please checkout the recording video below 👇)
 
  - Recording clip(Short video): 
    - q3 https://youtu.be/eBnyq6_IQqE  
