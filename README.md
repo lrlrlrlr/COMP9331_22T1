@@ -24,3 +24,24 @@ labs content
    - q3 https://youtu.be/eBnyq6_IQqE  
    - q4 https://youtu.be/Yg5IwiD2Ync   
    - q5 https://youtu.be/9ARKigLwJfM  
+
+
+## Lab3
+
+ - **Exercise3**
+   - Q1: simply run the `dig www.eecs.berkeley.edu`
+   - Q2: check the CNAME result in Q1 or run `dig www.eecs.berkeley.edu CNAME`
+   - Q3: explain what we have in the response
+   - Q4: in the bottom of the response
+   - Q5: check the AUTHORITY SECTION/ADDITIONAL SECTION
+   - Q6: reverse query `dig -x 129.94.242.33`
+   - Q7: MX query `dig @129.94.242.33 yahoo.com MX`
+   - Q8: ...
+   - Q9: MX query `dig @ipaddr yahoo.com MX`, replace ipaddr with the IP addr of the Authoritative DNS.
+   - Q10:
+     - step1: run `dig . NS`, get the ip addr of root DNS
+     - step2: run `dig @ipaddr lyre00.cse.unsw.edu.au NS`, you will get the Authoritative DNS IP addr in the response
+     - step3~n: keep replacing the ipaddr until you find "aa" in the flags.
+
+ - **Exercise4**
+   - Example code (coming soon)
