@@ -44,4 +44,4 @@ labs content
      - step3~n: keep replacing the ipaddr until you find "aa" in the flags.
 
  - **Exercise4**
-   - Example code (coming soon)
+   - [Example code](https://github.com/lrlrlrlr/COMP9331_22T1/blob/main/WebServer_demo_0.py)
