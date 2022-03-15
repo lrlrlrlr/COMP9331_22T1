@@ -45,3 +45,7 @@ labs content
 
  - **Exercise4**
    - [Example code](https://github.com/lrlrlrlr/COMP9331_22T1/blob/main/WebServer_demo_0.py)
+
+
+## Midterm
+- [merged slides](https://github.com/lrlrlrlr/COMP3331_9331_21T3/blob/main/9331review/week1~week5_merged.pdf)
