@@ -1,5 +1,44 @@
-# COMP9331_22T1
+ # COMP9331_22T1
 labs content
+
+
+## Assignment Help session schedule
+
+
+### Week 7 : How to get started
+	- What should we do?
+	- How to design the program?
+	- How to start with the example code?
+	- UDP vs TCP
+	- Useful library
+ 
+ Slides: (to be uploaded)  
+ Recording: (to be uploaded)  
+
+### Week 8: How to implement the Config. 2 ?
+	- Program structure
+	- Multi clients
+	- TCP file transmission
+  Slides: (to be uploaded)  
+  Recording: (to be uploaded)  
+
+### Week 9~10:  Debug/Testing/Submission
+ - Demo code for some hard function
+ - Testing  
+ Slides: (to be uploaded)  
+ Recording: (to be uploaded)  
+
+![image](https://user-images.githubusercontent.com/27357380/160765808-fc2b6313-6d64-4497-9e96-05f42e7d2c63.png)
+
+
+
+
+
+
+
+
+
+
 
 
 ## Lab1：  
