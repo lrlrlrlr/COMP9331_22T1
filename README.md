@@ -3,8 +3,7 @@ labs content
 
 
 ## Assignment Help session schedule
-![image](https://user-images.githubusercontent.com/27357380/162343976-45e3a274-eada-4f91-96df-5afebda54d74.png)
-
+![image](https://user-images.githubusercontent.com/27357380/162346774-f2f01251-dfcc-4bbc-a9d4-efc36c25f986.png)
 
 ### Week 7 : How to get started
 	- What should we do?
