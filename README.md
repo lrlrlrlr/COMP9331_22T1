@@ -88,3 +88,58 @@ labs content
 
 ## Midterm
 - [merged slides](https://github.com/lrlrlrlr/COMP3331_9331_21T3/blob/main/9331review/week1~week5_merged.pdf)
+
+## Lab6
+### Exercise 1. 
+ - Create a simulator object: `set ns [new simulator]`
+ - Open file: `set fx [open filename.tr w]`
+ - Create nodes: `set n1 [$ns node]`
+ - Create links between the nodes: `$ns duplex-link $n1 $n6 2.5Mb 40ms DropTail`
+ - Set the correct orientation: `$ns duplex-link-op $n1 $n2 orient up`
+ - Setup TCP and FTP:
+ 	```
+	# Create TCP conn
+ 	set tcpX [new Agent/TCP]
+	$ns attach-agent $nX $tcpX
+
+	#Sink for traffic at Node nX
+	set sinkX [new Agent/TCPSink]
+	$ns attach-agent $nX $sinkX
+
+	#Connect
+	$ns connect $tcpX $sinkX
+	$tcpX set fid_ X
+
+	#Setup FTP over TCP connection
+	set ftpX [new Application/FTP]
+	$ftpX attach-agent $tcpX
+	```
+
+- the proc function
+	```
+	
+	proc record {} {
+	>>
+		#Get an instance of the simulator
+		set ns [Simulator instance]
+		#Set the time after which the procedure should be called again
+		set time 0.1
+		#How many bytes have been received by the traffic sinks at n5?
+		set bw1 [$sink1 set bytes_]
+	>>
+		#Get the current time
+		set now [$ns now]
+		#Calculate the bandwidth (in MBit/s) and write it to the files
+		puts $f1 "$now [expr $bw1/$time*8/1000000]"
+		puts $f2 "$now [expr $bw2/$time*8/1000000]"
+		#Reset the bytes_ values on the traffic sinks
+	>>
+		#Re-schedule the procedure
+		$ns at [expr $now+$time] "record"
+	}
+	```
+ - start recording:
+ - start FTP sessions: `$ns at 0.5 "$ftpX start"`. 
+ - Stop FTP sessions: 
+ - Call the finish procedure after 10 seconds of simulation time: `$ns at 10.0 "finish"`
+ - Run the simulation: 
