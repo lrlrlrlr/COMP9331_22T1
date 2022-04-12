@@ -90,6 +90,8 @@ labs content
 - [merged slides](https://github.com/lrlrlrlr/COMP3331_9331_21T3/blob/main/9331review/week1~week5_merged.pdf)
 
 ## Lab6
+ (NS2 101)[https://webcms3.cse.unsw.edu.au/files/fca493169b20fcc647f5e83600e25ed624c7b47df376a9fe8e2965991aba40e8/attachment]
+
 ### Exercise 1. 
  - Create a simulator object: `set ns [new simulator]`
  - Open file: `set fx [open filename.tr w]`
@@ -146,3 +148,4 @@ labs content
  - Stop FTP sessions:  `$ns at 8.5 "$ftp1 stop"`
  - Call the finish procedure after 10 seconds of simulation time: `$ns at 10.0 "finish"`
  - Run the simulation: `$ns run`
+ 
