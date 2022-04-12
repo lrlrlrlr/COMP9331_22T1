@@ -119,27 +119,30 @@ labs content
 	```
 	
 	proc record {} {
-	>>
+	>>	**global ns sink1 sink2 f1 f2**
+		
 		#Get an instance of the simulator
 		set ns [Simulator instance]
 		#Set the time after which the procedure should be called again
 		set time 0.1
 		#How many bytes have been received by the traffic sinks at n5?
 		set bw1 [$sink1 set bytes_]
-	>>
+	>>	set bw2 [$sink2 set bytes_]
 		#Get the current time
 		set now [$ns now]
 		#Calculate the bandwidth (in MBit/s) and write it to the files
 		puts $f1 "$now [expr $bw1/$time*8/1000000]"
 		puts $f2 "$now [expr $bw2/$time*8/1000000]"
 		#Reset the bytes_ values on the traffic sinks
-	>>
+	>>	$sink1 set bytes_ 0
+	>>	$sink2 ...........
+
 		#Re-schedule the procedure
 		$ns at [expr $now+$time] "record"
 	}
 	```
- - start recording:
- - start FTP sessions: `$ns at 0.5 "$ftpX start"`. 
- - Stop FTP sessions: 
+ - start recording: `ns at 0.0 "record"`
+ - start FTP sessions: `$ns at 0.5 "$ftp1 start"`
+ - Stop FTP sessions:  `$ns at 8.5 "$ftp1 stop"`
  - Call the finish procedure after 10 seconds of simulation time: `$ns at 10.0 "finish"`
- - Run the simulation: 
+ - Run the simulation: `$ns run`
