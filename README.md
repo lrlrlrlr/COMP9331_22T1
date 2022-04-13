@@ -5,6 +5,58 @@ labs content
 ## Assignment Help session schedule
 ![image](https://user-images.githubusercontent.com/27357380/162346774-f2f01251-dfcc-4bbc-a9d4-efc36c25f986.png)
 
+### assignment testcase
+ - Authentication
+   - login with exist user
+   - login with new user -- should be able to create a new user
+   - valid username with invalid password
+
+ - CRT
+   - CRT file format (filename, first line should contain the username)
+   - create a thread with valid/invalid) threadname
+   - create a existed thread
+ 
+ - MSG
+   - post msg with message: "hello how are you" to a exist thread
+   - post a msg to a thead that is not exist
+ 
+ - DLT
+   - delete a msg, check the other messages' number are consistent
+   - delete a msg that is not belong to you
+   - delete a msg with an invalid thread name
+   - delete a msg with an invalid msg number 
+
+ - EDT
+   - edit a message, and display it see if it is working or not
+   - edit a message with invalid threadname
+   - edit a message with invalid message number
+   - edit a message that is not belong to the current user
+   
+ - LST
+  - print out the list properly, even an empty list
+ - RDT
+  - with an invalid thread name
+  - with a valid rdt cmd, should be able to show all the contents(msg, files)
+ 
+ - UPD and DWN
+  - try to send/recv a txt/pdf/jpeg file
+  - try with an invalid threadname
+  - try with an invalid filename (e.g. "invalid file.txt")
+  - download an invalid file
+ - RMV
+  - remove a normal thread
+  - remove an inexist thread
+  - remove a thread that is not belong to you
+ 
+ - XIT
+  - open 2 terminal, Client1 should login Yoda, then XIT, then login again with Client2
+
+ - Multiple Clients
+   - open 2 terminals and login as two different users, should be able to login in at the same time
+   - open 2 terminals, login Yoda with client1, then login Yoda again with client2, should not be able to login with client2
+ - Report
+   - not much spec, just let us know what is your program structure
+
 ### Week 7 : How to get started
 	- What should we do?
 	- How to design the program?
