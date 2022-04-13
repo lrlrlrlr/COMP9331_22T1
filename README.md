@@ -32,9 +32,10 @@ labs content
    - edit a message with invalid message number
    - edit a message that is not belong to the current user
    
- - LST
+ - LST  
   - print out the list properly, even an empty list
- - RDT
+  
+ - RDT  
   - with an invalid thread name
   - with a valid rdt cmd, should be able to show all the contents(msg, files)
  
@@ -43,6 +44,7 @@ labs content
   - try with an invalid threadname
   - try with an invalid filename (e.g. "invalid file.txt")
   - download an invalid file
+  
  - RMV
   - remove a normal thread
   - remove an inexist thread
@@ -54,6 +56,7 @@ labs content
  - Multiple Clients
    - open 2 terminals and login as two different users, should be able to login in at the same time
    - open 2 terminals, login Yoda with client1, then login Yoda again with client2, should not be able to login with client2
+   
  - Report
    - not much spec, just let us know what is your program structure
 
