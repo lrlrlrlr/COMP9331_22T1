@@ -33,25 +33,25 @@ labs content
    - edit a message that is not belong to the current user
    
  - LST  
-  - print out the list properly, even an empty list
+   - print out the list properly, even an empty list
   
  - RDT  
-  - with an invalid thread name
-  - with a valid rdt cmd, should be able to show all the contents(msg, files)
+   - with an invalid thread name
+   - with a valid rdt cmd, should be able to show all the contents(msg, files)
  
  - UPD and DWN
-  - try to send/recv a txt/pdf/jpeg file
-  - try with an invalid threadname
-  - try with an invalid filename (e.g. "invalid file.txt")
-  - download an invalid file
-  
+   - try to send/recv a txt/pdf/jpeg file
+   - try with an invalid threadname
+   - try with an invalid filename (e.g. "invalid file.txt")
+   - download an invalid file
+   
  - RMV
-  - remove a normal thread
-  - remove an inexist thread
-  - remove a thread that is not belong to you
+   - remove a normal thread
+   - remove an inexist thread
+   - remove a thread that is not belong to you
  
  - XIT
-  - open 2 terminal, Client1 should login Yoda, then XIT, then login again with Client2
+   - open 2 terminal, Client1 should login Yoda, then XIT, then login again with Client2
 
  - Multiple Clients
    - open 2 terminals and login as two different users, should be able to login in at the same time
