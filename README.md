@@ -61,7 +61,10 @@ labs content
    - open 2 terminals, login Yoda with client1, then login Yoda again with client2, should not be able to login with client2
    
  - Report
-   - not much spec, just let us know what is your program structure
+   - program design, (show some diagram/graph if possible)
+   - the application layer message format (show some examples, e.g. login)
+   - a brief description of how your system works, or any bug that you can't fix
+   - **The way you handle the packet loss**
 
 ### Week 7 : How to get started
 	- What should we do?
