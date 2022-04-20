@@ -52,6 +52,8 @@ labs content
    - remove a thread that is not belong to you
  
  - XIT
+   - (use 1 terminal)login with Yoda, then run XIT, then login another user (Hans).
+   - (use 1 terminal)login with Yoda, then run XIT, then login the same user (Yoda).
    - open 2 terminal, Client1 should login Yoda, then XIT, then login again with Client2
 
  - Multiple Clients
