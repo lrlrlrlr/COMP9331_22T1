@@ -59,6 +59,7 @@ labs content
  - Multiple Clients
    - open 2 terminals and login as two different users, should be able to login in at the same time
    - open 2 terminals, login Yoda with client1, then login Yoda again with client2, should not be able to login with client2
+   - Run the all 8 commands with differnet terminals(users), like section 8 in SPEC.
    
  - Report
    - program design, (show some diagram/graph if possible)
