@@ -6,6 +6,7 @@ labs content
 ![image](https://user-images.githubusercontent.com/27357380/162346774-f2f01251-dfcc-4bbc-a9d4-efc36c25f986.png)
 
 ### assignment testcase
+**Please test your client/server in the Vlab env!**
  - Authentication
    - login with exist user
    - login with new user -- should be able to create a new user
