@@ -74,21 +74,20 @@ labs content
 	- UDP vs TCP
 	- Useful library
  
- Slides: (to be uploaded)  
- Recording: (to be uploaded)  
+ Slides: (in the root folder)  
+ Recording: (https://youtu.be/AnXoHXsk2S8)  and (https://youtu.be/HGP43IOdknM)
 
 ### Week 8: How to implement the Config. 2 ?
-	- Program structure
+	- Program structure (at the top)
 	- Multi clients
 	- TCP file transmission
-  Slides: (to be uploaded)  
-  Recording: (to be uploaded)  
+
+
 
 ### Week 9~10:  Debug/Testing/Submission
  - Demo code for some hard function
- - Testing  
- Slides: (to be uploaded)  
- Recording: (to be uploaded)  
+ - Testing  (at the top)
+ Recording: (https://youtu.be/9uaWZRbaYlc)  
 
 ![image](https://user-images.githubusercontent.com/27357380/160765808-fc2b6313-6d64-4497-9e96-05f42e7d2c63.png)
 
