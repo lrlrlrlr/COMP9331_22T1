@@ -1,6 +1,7 @@
  # COMP9331_22T1
 labs content
 
+## TODO: Final exam material coming soon...
 
 ## Assignment Help session schedule
 ![image](https://user-images.githubusercontent.com/27357380/162346774-f2f01251-dfcc-4bbc-a9d4-efc36c25f986.png)
