@@ -1,7 +1,15 @@
  # COMP9331_22T1
 labs content
 
-## TODO: Final exam material coming soon...
+## Final exam review
+ - slides: 
+
+## Tut02 / Finalexam (from 21T3)
+ -  Recording: https://youtu.be/BoPMGeGf4LE 
+ -  review slides: https://github.com/lrlrlrlr/COMP3331_9331_21T3/blob/main/9331review/slides_final_rev.pdf   
+ -  Useful material: https://github.com/lrlrlrlr/COMP3331_9331_21T3/tree/main/9331review/final
+
+
 
 ## Assignment Help session schedule
 ![image](https://user-images.githubusercontent.com/27357380/162346774-f2f01251-dfcc-4bbc-a9d4-efc36c25f986.png)
