@@ -3,9 +3,8 @@ labs content
 
 ## Final exam review
  - slides:  https://github.com/lrlrlrlr/COMP9331_22T1/blob/main/comp3331_final%20ppt%5B8167%5D.pptx 
- - Useful materials:
-    - lecture slides (from w1~w10) merged: https://drive.google.com/file/d/1iypnV8s9oWjWODOr1oBglMYIx01PiA0A/view?usp=sharing 
-    - 
+ - lecture slides (from w1~w10) merged: https://drive.google.com/file/d/1iypnV8s9oWjWODOr1oBglMYIx01PiA0A/view?usp=sharing 
+
 
 #### Tut02 / Finalexam (from 21T3)
   -  Recording: https://youtu.be/BoPMGeGf4LE 
