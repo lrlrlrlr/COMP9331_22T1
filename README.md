@@ -3,6 +3,9 @@ labs content
 
 ## Final exam review
  - slides: 
+ - Useful materials:
+    - lecture slides (from w1~w10) merged: https://drive.google.com/file/d/1iypnV8s9oWjWODOr1oBglMYIx01PiA0A/view?usp=sharing 
+    - 
 
 ## Tut02 / Finalexam (from 21T3)
  -  Recording: https://youtu.be/BoPMGeGf4LE 
